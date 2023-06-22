@@ -4,6 +4,11 @@ Redux
 => Actions: Describes what happened
 => Reducer: Ties the store and actions together
 
+~ACTION
+Action is an object with a type property.
+~ACTION CREATOR 
+Is simply a function that returns action
+
 
 
 

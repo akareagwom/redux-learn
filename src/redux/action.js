@@ -15,3 +15,14 @@ const initialState = {
     //state default value or parameter in the reducer 
     numOfCakekers: 10,
 }
+// defining reducer function
+const reducer = (state=initialState, action) =>{
+    switch(action.type){
+        case BUY_CAKE: return {
+            numOfCakekers: state.numOfCakekers - 1,
+        }
+
+        default : return state
+    }
+
+}

@@ -9,3 +9,5 @@ return {
     info: 'First redux action'
 } 
 }
+
+// (previousState, action) => newState

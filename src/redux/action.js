@@ -11,3 +11,7 @@ return {
 }
 
 // (previousState, action) => newState
+const initialState = {
+    //state default value or parameter in the reducer 
+    numOfCakekers: 10,
+}

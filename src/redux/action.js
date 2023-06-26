@@ -19,6 +19,8 @@ const initialState = {
 const reducer = (state=initialState, action) =>{
     switch(action.type){
         case BUY_CAKE: return {
+            //when state has more than one property use spread operator
+            ...state,
             numOfCakekers: state.numOfCakekers - 1,
         }
 

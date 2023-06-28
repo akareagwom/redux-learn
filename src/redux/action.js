@@ -48,3 +48,6 @@ store.dispatch(buyCake())
 
 //call unsubscribe method
 unsubsribe()
+
+
+//*it's better to pass the actionCreator function than the action as the parameter of the dispatch function

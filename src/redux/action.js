@@ -51,3 +51,5 @@ unsubsribe()
 
 
 //*it's better to pass the actionCreator function than the action as the parameter of the dispatch function
+
+//Remember that understanding redux is the core to understanding redux with react

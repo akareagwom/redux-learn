@@ -1,4 +1,4 @@
-import redux from 'redux'
+import {redux} from 'redux'
 
 const craeteStore = redux.createStore
 
@@ -32,3 +32,6 @@ const reducer = (state=initialState, action) =>{
     }
 
 }
+
+//holds the application state
+const store = craeteStore(reducer)

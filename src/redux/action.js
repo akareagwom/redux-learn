@@ -35,3 +35,5 @@ const reducer = (state=initialState, action) =>{
 
 //holds the application state
 const store = craeteStore(reducer)
+
+console.log('Initial state', store.getState())

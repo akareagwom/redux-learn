@@ -36,4 +36,7 @@ const reducer = (state=initialState, action) =>{
 //holds the application state
 const store = craeteStore(reducer)
 
+//getState method
 console.log('Initial state', store.getState())
+//subscribing to changes
+store.subscribe(()=>console.log('Updated state', store.getState()))

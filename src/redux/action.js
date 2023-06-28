@@ -1,3 +1,7 @@
+import redux from 'redux'
+
+const craeteStore = redux.createStore
+
 // string constant
 const BUY_CAKE = 'BUY_CAKE'
 

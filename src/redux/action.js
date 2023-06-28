@@ -40,3 +40,6 @@ const store = craeteStore(reducer)
 console.log('Initial state', store.getState())
 //subscribing to changes
 store.subscribe(()=>console.log('Updated state', store.getState()))
+//dispatch method to update state
+//dispatch method takes in actions
+store.dispatch(buyCake)

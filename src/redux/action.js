@@ -45,3 +45,6 @@ const unsubsribe= store.subscribe(()=>console.log('Updated state', store.getStat
 store.dispatch(buyCake())
 store.dispatch(buyCake())
 store.dispatch(buyCake())
+
+//call unsubscribe method
+unsubsribe()
